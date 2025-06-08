@@ -1,17 +1,17 @@
 // Array of image paths with descriptive alt texts for accessibility
 const imageSources = [
-    { src: "../../Assets/Web/AboutUs/Marquee/1.jpg", alt: "m1" },
-    { src: "../../Assets/Web/AboutUs/Marquee/2.jpg", alt: "m2" },
-    { src: "../../Assets/Web/AboutUs/Marquee/3.jpg", alt: "m3" },
-    { src: "../../Assets/Web/AboutUs/Marquee/4.jpg", alt: "m4" },
-    { src: "../../Assets/Web/AboutUs/Marquee/5.jpg", alt: "m5" },
-    { src: "../../Assets/Web/AboutUs/Marquee/6.jpg", alt: "m6" },
-    { src: "../../Assets/Web/AboutUs/Marquee/7.jpg", alt: "m7" },
-    { src: "../../Assets/Web/AboutUs/Marquee/8.jpg", alt: "m8" },
-    { src: "../../Assets/Web/AboutUs/Marquee/9.jpg", alt: "m9" },
-    { src: "../../Assets/Web/AboutUs/Marquee/11.jpg", alt: "m10" },
-    { src: "../../Assets/Web/AboutUs/Marquee/12.jpg", alt: "m11" },
-    { src: "../../Assets/Web/AboutUs/Marquee/13.jpg", alt: "m12" }
+    { src: "Assets/Web/AboutUs/Marquee/1.jpg", alt: "m1" },
+    { src: "Assets/Web/AboutUs/Marquee/2.jpg", alt: "m2" },
+    { src: "Assets/Web/AboutUs/Marquee/3.jpg", alt: "m3" },
+    { src: "Assets/Web/AboutUs/Marquee/4.jpg", alt: "m4" },
+    { src: "Assets/Web/AboutUs/Marquee/5.jpg", alt: "m5" },
+    { src: "Assets/Web/AboutUs/Marquee/6.jpg", alt: "m6" },
+    { src: "Assets/Web/AboutUs/Marquee/7.jpg", alt: "m7" },
+    { src: "Assets/Web/AboutUs/Marquee/8.jpg", alt: "m8" },
+    { src: "Assets/Web/AboutUs/Marquee/9.jpg", alt: "m9" },
+    { src: "Assets/Web/AboutUs/Marquee/11.jpg", alt: "m10" },
+    { src: "Assets/Web/AboutUs/Marquee/12.jpg", alt: "m11" },
+    { src: "Assets/Web/AboutUs/Marquee/13.jpg", alt: "m12" }
 ];
 
 // Create marquee content with optimized image loading
