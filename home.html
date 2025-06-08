@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>VSTravel</title>
+    <link rel="icon" href="../../Assets/Logo Biru.png" type="image/x-icon"> 
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/mainstyles.css"/>
+    <link rel="stylesheet" href="../css/footer.css"/>
+    <link rel="stylesheet" href="../css/homestyle.css"/>
+</head>
+<body>
+    <div id="navbar-container"></div>
+    <div id="particles-container"></div>
+    <!-- HERO IMAGE SECTION WITH THE SLOGAN -->
+    <section class="hero-section">
+    <div class="hero-slideshow">
+        <img class="slide" src="../../Assets/Web/HomePage/Slide1.png" alt="Slide 1">
+        <img class="slide" src="../../Assets/Web/HomePage/Slide2.jpg" alt="Slide 2">
+        <img class="slide" src="../../Assets/Web/HomePage/Slide3.jpg" alt="Slide 3">
+        <img class="slide" src="../../Assets/Web/HomePage/Slide4.png" alt="Slide 4">
+        <img class="slide" src="../../Assets/Web/HomePage/Slide5.jpg" alt="Slide 5">
+        <img class="slide" src="../../Assets/Web/HomePage/Slide6.jpg" alt="Slide 6">
+    </div>
+    <div class="hero-text">
+        <p>Welcome to VSTravel</p>
+        <h1>Let's make memories. One journey at a time.</h1>
+        <p>You and your dreams are just one click away</p>
+    </div>
+    </section>
+
+
+    <!-- First intro title and subtitle -->
+    <section class="intro-section">
+        <h2 class="intro-heading">Discover, Explore, and Experience with</h2>
+            <div class="divider-title">
+                <hr />
+                <h1 class="brand-title">VSTravel</h1>
+                <hr />
+            </div>
+        <p class="slogan">Your gateway to unforgettable journeys. <em>Let’s make memories. One journey at a time.</em></p>
+    </section>
+
+    <!-- Big Logo image and the box with description of VStravel -->
+    <div class="intro-banner">
+        <div class="intro-logo">
+            <img src="../../Assets/Logo Biru.png" alt="Company Logo">
+        </div>
+
+        <div class="intro-text-box">
+            <p>
+                <strong>VSTravel makes it easier than ever to discover your dream destination.</strong>
+                Whether you're seeking breathtaking landscapes, rich cultural experiences, or hidden gems, we bring you the best destinations, 
+                tailored to your dreams. Just one click away, from your home.
+                <strong>Explore this month’s top spots and start planning your next adventure today!</strong>
+            </p>
+        </div>
+    </div>
+
+    <!-- Header of the highlight section above the cards of the destination -->
+    <section class="highlight-section">
+        <div class="divider-title">
+            <hr />
+            <div class="highlight-text">
+            <h1 class="highlight-main">HIGHLIGHT</h1>
+            <p class="highlight-sub">of the month</p>
+        </div>
+        <hr />
+        </div>
+        <p class="highlight-description">
+            <em>Discover this month’s top travel destination, handpicked for its beauty, culture, and unforgettable experiences!</em>
+        </p>
+    </section>
+
+    <!-- The cards where 3 first datas are fetched from ../data/destinationData.json by destinationCardFetch.js -->
+    <div class="destination-section">
+        <div class="destination-grid" id="cards-container"></div>
+    </div>
+
+    <section class="highlight-section">
+        <div class="divider-title">
+            <hr />
+            <div class="highlight-text">
+                <p class="highlight-sub">More Recommendations, just</p>
+            <h1 class="highlight-main">FOR YOU</h1>
+            
+        </div>
+        <hr />
+        </div>
+        <p class="highlight-description">
+            <em>Thoughtfully curated journeys, ensuring every trip is tailored to your dreams.</em>
+        </p>
+        <a href="../html/destination.html"><button class="button-bottom-home">See all of our Destinations, Here!</button></a>
+    </section>
+
+    <div class="footer" id="footer"></div>
+
+
+    <!-- POPUP placed under all elements -->
+    <div id="destination-popup" class="popup-modal hidden">
+        <div class="popup-content">
+            <span class="close-popup" aria-label="Close popup">×</span>
+
+            <img id="popup-img" src="" alt="">
+            <h3 id="popup-title"></h3>
+            <p id="popup-description"></p>
+            <p id="popup-price"></p>
+
+            <div class="card-actions">
+                <div class="more-info-button"><a id="more-info-link" href="#" aria-label="More information about this destination">More Info</a></div>
+                <div class="book-now-button"><a id="book-now-link" href="#" aria-label="Book this destination now">Book Now</a></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/destinationCardFetch.js"></script>
+    <script src="../js/compFetch.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/experiment.js"></script>
+    <script src="../js/homehero.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>VSTravel</title>
+        <!-- buat masukin logo ke tab chrome yang ada di browser xixixixi -->
+        <link rel="icon" href="../../Assets/Logo Biru.png" type="image/x-icon"> 
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <link rel="stylesheet" href="../css/travelnowstyle.css"/>
+        <link rel="stylesheet" href="../css/mainstyles.css"/>
+        <link rel="stylesheet" href="../css/footer.css"/>
+        <link rel="stylesheet" href="../css/experiment.css">
+    </head>
+<body>
+<div id="particles-container"></div>
+<!-- header for the navbar pake component yang udah ada di js-->
+<div id="navbar-container"></div>
+
+<div class="background">
+    <span class="ball"></span>
+    <span class="ball"></span>
+    <span class="ball"></span>
+    <span class="ball"></span>
+    <span class="ball"></span>
+    <span class="ball"></span>
+</div>
+
+    <!-- main container buat bagi jadi kanan kiri buat si benefits sama formsnya -->
+<section class="travel-now-main-container">
+    <div class="benefits">
+        <div class="Travel-now-section-title">Plan Your Next Adventure Today!</div>
+        <div class="Travel-now-section-subtitle">Fill out a few details and let us turn your travel dreams into reality.</div>
+        <div class="custom-underline"></div>
+
+        <div class="benefit-grid">
+            <div class="benefit-item">
+                <img src="../../Assets/Web/TravelNowPage/planes2.png" alt="Smooth Booking">
+                <div>
+                    <div class="benefit-title">Smooth Booking Experience</div>
+                    <div class="benefit-desc">We take care of the details so you can focus on the excitement.</div>
+                </div>
+            </div>
+        
+            <div class="benefit-item">
+                <img src="../../Assets/Web/TravelNowPage/hotel.png" alt="Curated Packages">
+                <div>
+                    <div class="benefit-title">Curated Stays & Packages</div>
+                    <div class="benefit-desc">From luxury resorts to budget escapes – just for you.</div>
+                </div>
+            </div>
+        
+            <div class="benefit-item">
+                <img src="../../Assets/Web/TravelNowPage/calendar.png" alt="Flexible Dates">
+                <div>
+                    <div class="benefit-title">Flexible Dates, Zero Hassle</div>
+                    <div class="benefit-desc">Pick your dates – we adapt to your schedule.</div>
+                </div>
+            </div>
+        
+            <div class="benefit-item">
+                <img src="../../Assets/Web/TravelNowPage/assist.png" alt="Assistants">
+                <div>
+                    <div class="benefit-title">Personal Travel Assistants</div>
+                    <div class="benefit-desc">1-on-1 support from planning to touchdown.</div>
+                </div>
+            </div>
+        
+            <div class="benefit-item center-benefit">
+                <img src="../../Assets/Web/TravelNowPage/shield.png" alt="Privacy">
+                <div>
+                    <div class="benefit-title">100% Privacy & Secure Booking</div>
+                    <div class="benefit-desc">Your information stays protected. Always.</div>
+                </div>
+            </div>
+        </div>        
+    </div>
+
+    <!-- buat si formnya -->
+    <div class="form-container">
+        <h2>Tell us Where You’re Headed</h2>
+        <form>
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter your full name here">
+
+        <label>Phone Number</label>
+        <input type="tel" placeholder="Enter Your Phone Number (e.g. 081312347890)">
+
+        <label>Email Address</label>
+        <input type="email" placeholder="yourname@example.com">
+
+        <p class="how-many-people-form">How many people are going, my friend?</p>
+        <div class="counter-group">
+            <span>Adult</span>
+            <button type="button">-</button> 
+            <span>3</span> 
+            <button type="button">+</butto>
+        </div>
+        <div class="counter-group">
+            <span>Child</span>
+            <button type="button">-</button>
+            <span>0</span>
+            <button type="button">+</button>
+        </div>
+        <div class="counter-group">
+            <span>Baby</span>
+            <button type="button">-</button>
+            <span>1</span>
+            <button type="button">+</button>
+        </div>
+
+        <label>Dates of Departure</label>
+        <input class="calendar-button-travel-now" type="date">
+        <label>Dates of Return</label>
+        <input class="calendar-button-travel-now" type="date">
+
+        <button class="submit-btn">Submit</button>
+        </form>
+    </div>
+</section>
+<!-- <script src="../js/script.js"></script> -->
+
+    <footer class="footer" id="footer"></footer>
+
+<!-- ! Scripts secctions -->
+    <script src="../js/compFetch.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/experiment.js"></script>
+
+</body>
+</html>

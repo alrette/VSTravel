@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>VSTravel</title>
+    <!-- buat masukin logo ke tab chrome yang ada di browser -->
+    <link rel="icon" href="../../Assets/Logo Biru.png" type="image/x-icon"> 
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/mainstyles.css" />
+    <link rel="stylesheet" href="../css/footer.css"/>
+    <link rel="stylesheet" href="../css/contactstyle.css" />
+    <link rel="stylesheet" href="../css/experiment.css">
+</head>
+
+<body>
+    <!-- particles.js container biar nanti dia bisa contain si particle buat mouse tarilnya, karena kalau gada ini nanti gabisa
+    ini juga ga dibikin di body karena takutnya clash sama main container -->
+    <div id="particles-container"></div>
+    <!-- header for the navbar pake component yang udah ada di js-->
+    <div id="navbar-container"></div>
+    
+    <div class="title-box">
+        <div class="contact-us-title">Contact Us</div>
+        <div class="contact-us-subtitle">We're here to help! Check the list below to find the office closer to you.</div>
+        <div class="custom-underline"></div>
+    </div>
+
+    <div class="background">
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>  
+    </div>
+    
+    <div class="city">
+    <!--TODO :  JAKARTA -->
+    <div class="city-group">
+        <div class="city-label">Jakarta</div>
+    
+        <div class="accord-container-contact">
+            <button class="accordion-contact">Pondok Indah Mall</button>
+            <div class="panel">
+                <div class="panel-content">
+                    <div class="panel-text">
+                        <p><strong>Address:</strong> Jl. Metro Pondok Indah, Pondok Indah, Kec. Kebayoran Lama, Jakarta Selatan, DKI Jakarta 12310, Indonesia</p>
+                        <p><strong>Operation Time :</strong> Monday - Friday 10.00 - 21.00</p>
+                        <p><strong>Contact:</strong> +62 123 456 7890</p>
+                    </div>
+                    <img src="../../Assets/Web/ContactUs/Pondok_Indah_Mall.jpg" alt="Mall Image" class="panel-img" loading="lazy">
+                </div>
+            </div>
+    
+            <button class="accordion-contact">Central Park Mall</button>
+            <div class="panel">
+                <div class="panel-content">
+                    <div class="panel-text">
+                        <p><strong>Address:</strong> Jl. Letjen S. Parman No.28, Tanjung Duren Selatan, Grogol Petamburan, Jakarta Barat, DKI Jakarta 11470, Indonesia</p>
+                        <p><strong>Operation Time :</strong> Monday - Friday 10.00 - 21.00</p>
+                        <p><strong>Contact:</strong> +62 123 456 7890</p>
+                    </div>
+                    <img src="../../Assets/Web/ContactUs/Central_park_mall.jpg" alt="Mall Image" class="panel-img" loading="lazy">
+                </div>
+            </div>
+    
+            <button class="accordion-contact">Senayan City</button>
+            <div class="panel">
+                <div class="panel-content">
+                    <div class="panel-text">
+                        <p><strong>Address:</strong> Jl. Asia Afrika Lot 19, Gelora, Tanah Abang, Jakarta Pusat, DKI Jakarta 10270, Indonesia</p>
+                        <p><strong>Operation Time :</strong> Monday - Friday 10.00 - 21.00 </p>
+                        <p><strong>Contact:</strong> +62 123 456 7890</p>
+                    </div>
+                    <img src="../../Assets/Web/ContactUs/Senayan_City_Mall.jpg" alt="Mall Image" class="panel-img" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--TODO :  BALI -->
+    <div class="city-group">
+        <div class="city-label">Bali</div>
+    
+        <div class="accord-container-contact">
+            <button class="accordion-contact">Lippo Mall Kuta</button>
+            <div class="panel">
+                <div class="panel-content">
+                    <div class="panel-text">
+                        <p><strong>Address:</strong> Jl. Kartika Plaza, Lingkungan Tuban, Kuta, Kabupaten Badung, Bali 80361, Indonesia</p>
+                        <p><strong>Operation Time :</strong> Monday - Friday 10.00 - 21.00</p>
+                        <p><strong>Contact:</strong> +62 123 456 7890</p>
+                    </div>
+                    <img src="../../Assets/Web/ContactUs/Lippo_Mall_Kuta.jpg" alt="Mall Image" class="panel-img" loading="lazy">
+                </div>
+            </div>
+    
+            <button class="accordion-contact">Living World Denpasar</button>
+            <div class="panel">
+                <div class="panel-content">
+                    <div class="panel-text">
+                        <p><strong>Address:</strong> Jl. Gatot Subroto Timur No. 5, Kesiman Kertalangu, Kec. Denpasar Timur, Kota Denpasar, Bali 80239, Indonesia</p>
+                        <p><strong>Operation Time :</strong> Monday - Friday 10.00 - 21.00</p>
+                        <p><strong>Contact:</strong> +62 123 456 7890</p>
+                    </div>
+                    <img src="../../Assets/Web/ContactUs/Living_World_Denpasar.jpg" alt="Mall Image" class="panel-img" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--TODO :  MEDAN -->
+    <div class="city-group">
+        <div class="city-label">Medan</div>
+    
+        <div class="accord-container-contact">
+            <button class="accordion-contact">Manhattan Times Square</button>
+            <div class="panel">
+                <div class="panel-content">
+                    <div class="panel-text">
+                        <p><strong>Address:</strong> Jl. Gatot Subroto No. 217, Sei Sikambing C. II, Kec. Medan Helvetia, Kota Medan, Sumatera Utara 20123, Indonesia</p>
+                        <p><strong>Operation Time :</strong> Monday - Friday 10.00 - 21.00</p>
+                        <p><strong>Contact:</strong> +62 123 456 7890</p>
+                    </div>
+                    <img src="../../Assets/Web/ContactUs/Manhattan-Times-Square.jpg" alt="Mall Image" class="panel-img" loading="lazy">
+                </div>
+            </div>
+    
+            <button class="accordion-contact">Delipark Mall</button>
+            <div class="panel">
+                <div class="panel-content">
+                    <div class="panel-text">
+                        <p><strong>Address:</strong> Jl. Putri Hijau No. 1, Kesawan, Kec. Medan Barat, Kota Medan, Sumatera Utara 20111, Indonesia</p>
+                        <p><strong>Operation Time :</strong> Monday - Friday 10.00 - 21.00</p>
+                        <p><strong>Contact:</strong> +62 123 456 7890</p>
+                    </div>
+                    <img src="../../Assets/Web/ContactUs/Delipark.jpg" alt="Mall Image" class="panel-img" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--TODO :  SURABAYA -->
+    <div class="city-group">
+        <div class="city-label">Surabaya</div>
+    
+        <div class="accord-container-contact">
+            <button class="accordion-contact">Tunjungan Plaza</button>
+            <div class="panel">
+                <div class="panel-content">
+                    <div class="panel-text">
+                        <p><strong>Address:</strong> Jl. Basuki Rahmat No. 8-12, Tegalsari, Kec. Tegalsari, Kota Surabaya, Jawa Timur 60261, Indonesia</p>
+                        <p><strong>Operation Time :</strong> Monday - Friday 10.00 - 21.00</p>
+                        <p><strong>Contact:</strong> +62 123 456 7890</p>
+                    </div>
+                    <img src="../../Assets/Web/ContactUs/Tunjungan_plaza.jpg" alt="Mall Image" class="panel-img" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer class="footer" id="footer"></footer>
+
+    <!-- ! Scripts secctions -->
+    <script src="../js/compFetch.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/experiment.js"></script>
+</body>
+</html>
