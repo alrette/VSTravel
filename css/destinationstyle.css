@@ -7,7 +7,7 @@ header{
 /* HERO IMAGE SECTIONS  */
 .hero {
     height: 65vh;
-    background: url("Assets/african\ safari\ experience.jpg") no-repeat center center/cover;
+    background: url("../../Assets/african\ safari\ experience.jpg") no-repeat center center/cover;
     display: flex;
     /* align-items: center; */
     align-items : center;
