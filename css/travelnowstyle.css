@@ -1,0 +1,194 @@
+/* ============================================================BACKGROUND SECTION================================================================================================= */
+.background {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: transparent; /* Match body background or make transparent */
+    overflow: hidden;
+    z-index: -1; /* Place behind content */
+}
+
+/* !===========================================================HERO TITLE+MAIN CONTAINER SECTION======================================================================================== */
+.travel-now-main-container {
+    padding-top:60px
+}
+
+.Travel-now-section-title {
+    font-size: 2.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    animation:fadeInLeft 0.8s ease forwards;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);   
+}
+.Travel-now-section-subtitle {
+    color: #666;
+    margin-bottom: 30px;
+    text-align: center;
+    animation:fadeInLeft 0.8s ease forwards;
+}
+/* !===========================================================BENEFIT SECTION======================================================================================== */
+.benefits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    min-width: 300px;
+}
+.benefit-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    max-height: 100px;
+    opacity: 0;
+    animation: fadeInUp 0.8s ease forwards;
+}
+.benefit-item img{
+    width:50px;
+    height:50px;
+    margin-right: 20px;
+}
+/* buat bikin animation si cssnya biar dia masuk satu satu si elementnya */
+.benefit-item:nth-child(1) {
+    animation-delay: 0s;
+}
+.benefit-item:nth-child(2) {
+    animation-delay: 0.2s;
+}
+.benefit-item:nth-child(3) {
+    animation-delay: 0.4s;
+}
+.benefit-item:nth-child(4) {
+    animation-delay: 0.6s;
+}
+.benefit-item:nth-child(5) {
+    animation-delay: 0.8s;
+}
+
+.benefit-title {
+    font-weight: bold;
+    margin-bottom: 3px;
+    font-size: 1em;
+}
+
+.benefit-desc {
+    color: #555;
+    font-size: 0.8em;
+}
+
+.benefit-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px 50px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.center-benefit {
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+}
+
+/* !===========================================================FORM CONTAINER SECTION======================================================================================== */
+.form-container {
+    /* flex: 1;  */
+    min-width: 340px;
+    max-width: 800px;
+    background-color: white;
+    margin:0 auto;
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+    animation:fadeInDown 0.8s ease forwards;
+    /* border:1px solid #004c5f; */
+    /* border-radius: 20px; */
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+    font-size: 1.4em;
+}
+.how-many-people-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:30px;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"], input[type="tel"], input[type="email"], input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.counter-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /*buat ngasih space ke angka dan jarakin dari span adult dkk*/
+    margin-bottom: 10px;
+}
+
+.counter-group button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: #eee;
+    font-weight: bold;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.counter-group button:hover {
+    background-color: #004c5f;
+    color: white;
+}
+
+.submit-btn {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #002e40;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #004c5f;
+}
+
+/* ============================================================TRAVEL NOW SECTION ENDS================================================================================================= */
+
+
+/* ! RESPONSIVENESS */
+@media screen and (max-width: 768px) {
+    .main-container {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .left-section, .right-section {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .form-container {
+        max-width: 400px;
+    }
+}

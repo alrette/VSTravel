@@ -1,0 +1,145 @@
+
+/* Destination Details Styles */
+.destination-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top:100px;
+    margin-bottom: 40px;
+}
+
+.hero-title {
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    animation: fadeInDown 1s ease forwards;
+}
+
+.hero-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+    animation: fadeInUp 1s ease forwards;
+    animation-delay: 0.3s;
+}
+
+.image-container {
+    border-radius: 15px;
+    overflow: hidden;
+    width: 400px;
+    height: 200px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.9) 0px 4px 10px;
+    border-radius: 15px;
+}
+
+.hero-description {
+    max-width: 800px;
+    font-size: 1.1em;
+    line-height: 1.7;
+    margin-top: 10px;
+    padding: 0 10px;
+    font-style : italic;
+    animation: fadeInUp 1s ease forwards;
+    animation-delay: 0.6s
+}
+
+.main-content {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.highlights-section,
+.package-section {
+    margin-bottom: 80px;
+}
+
+.highlights-section h2,
+.package-section h2 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #555;
+}
+
+.highlights-section h2,
+.highlights-section p{
+    animation: fadeInUp 1s ease forwards;
+}
+
+.highlight-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    animation: fadeInLeft 1s ease forwards;
+}
+
+.package-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    animation: fadeInRight 1s ease forwards;
+}
+
+.package-item {
+    text-align: center;
+    max-width: 200px;
+}
+
+.package-item img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.book-now-section {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.book-now-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: teal;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 1em;
+    transition: background-color 0.2s ease;
+    max-width:900px;
+    min-width:400px;
+}
+
+.book-now-btn:hover {
+    background-color: #00695c;
+}
+
+
+.destination-details img:hover{
+    /* transform:translateY(-5px); */
+    transform :scale(1.02);
+    transition: transform 0.3s ease;
+}
+
