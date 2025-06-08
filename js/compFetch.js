@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function (){
-    fetch("../componentHTML/footer.html")
+    fetch("componentHTML/footer.html")
         // convert dari html cuman ke textnya aja bukan dalam html
         // karena kita mau ambil textnya doang
         .then(response => response.text())
@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function (){
 })
 
 
-fetch('../componentHTML/navbar.html')
+fetch('componentHTML/navbar.html')
     .then(res => res.text())
     .then(data =>{
         document.getElementById('navbar-container').innerHTML = data;
