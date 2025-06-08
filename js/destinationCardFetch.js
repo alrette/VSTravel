@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Fetch destinations data
-    fetch("../data/destinationData.json")
+    fetch("data/destinationData.json")
         .then(res => {
             if (!res.ok) throw new Error(`Failed to fetch destinations data: ${res.status}`);
             return res.json();
@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
             }
 
             // Fetch card template
-            fetch("../componentHTML/destinationCard.html")
+            fetch("componentHTML/destinationCard.html")
                 .then(res => {
                     if (!res.ok) throw new Error(`Failed to fetch template: ${res.status}`);
                     return res.text();
@@ -184,7 +184,7 @@ window.addEventListener('load', () => {
 
         const dest = destinations.find(d => d.title === decodeURIComponent(title));
         if (dest) {
-            fetch('../componentHTML/destinationDetails.html')
+            fetch('componentHTML/destinationDetails.html')
                 .then(res => res.text())
                 .then(html => {
                     let detailsHTML = html
