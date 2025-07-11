@@ -2,8 +2,8 @@
 
 Welcome to the prototype website for **VSTravel**, one of the leading travel agencies in Indonesia! This project was created as part of a `web development assignment` and showcases a clean, functional travel booking interface built using HTML, CSS, and JavaScript.
 
-You can visit the website deployed with Github Pages here : https://alrette.github.io/VSTravel/
 ---
+You can visit the website deployed with Github Pages here : https://alrette.github.io/VSTravel/
 
 ## 🗂️ Project Structure
 
