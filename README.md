@@ -1,10 +1,8 @@
 # 🌍 VSTravel – Travel Agency Website Prototype
 
-**📌 Student ID:** 2702234081  
-**👨‍💻 Developer:** Aldo Oktavianus
+Welcome to the prototype website for **VSTravel**, one of the leading travel agencies in Indonesia! This project was created as part of a `web development assignment` and showcases a clean, functional travel booking interface built using HTML, CSS, and JavaScript.
 
-Welcome to the prototype website for **VSTravel**, one of the leading travel agencies in Indonesia! This project was created as part of a web development assignment and showcases a clean, functional travel booking interface built using HTML, CSS, and JavaScript.
-
+You can visit the website deployed with Github Pages here : https://alrette.github.io/VSTravel/
 ---
 
 ## 🗂️ Project Structure
@@ -55,3 +53,5 @@ To run properly:
 ![HTML](https://img.shields.io/badge/HTML-5-orange?logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-3-blue?logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript&logoColor=white)
+
+Created for Laboratory Project 2025 – VSTravel – Aldo Oktavianus
